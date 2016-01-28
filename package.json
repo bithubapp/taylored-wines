@@ -1,0 +1,34 @@
+{
+  "name": "taylored-wines",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bithubapp/taylored-wines.git"
+  },
+  "keywords": [
+    "bithub"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bithubapp/taylored-wines/issues"
+  },
+  "homepage": "https://github.com/bithubapp/taylored-wines#readme",
+  "dependencies": {
+    "can": "^2.3.0",
+    "jquery": "2.1.4",
+    "opensourced-bithub": "git+https://github.com/bitovi/bithub-embed.git",
+    "steal": "^0.14.0-pre.1"
+  },
+  "devDependencies": {
+    "steal-tools": "^0.13.3"
+  },
+  "system": {
+    "npmAlgorithm": "flat"
+  }
+}

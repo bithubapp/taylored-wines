@@ -2,9 +2,17 @@
 <html>
   <head>
     <title>BitHub Embed Demo</title>
+    <link rel="stylesheet" href="./dist/bundles/index.css"/>
   </head>
   <body>
     <div id="app"></div>
-	<script src="./dist/node_modules/steal/steal.production.js" main="index"></script>
+    <script>
+    	steal = {
+    		instantiated: {
+    			"bundles/index.css!$css": null
+    		}
+    	};
+    </script>
+	<script src="./dist/bundles/index.js" main="index" base-url="./dist" data-env="window-production"></script>
   </body>
 </html>

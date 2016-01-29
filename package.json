@@ -29,6 +29,9 @@
     "steal-tools": "^0.14.0-pre.1"
   },
   "system": {
-    "npmAlgorithm": "flat"
+    "npmAlgorithm": "flat",
+		"configDependencies" : [
+			"live-reload"
+		]
   }
 }

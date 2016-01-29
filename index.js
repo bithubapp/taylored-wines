@@ -6,7 +6,8 @@ import $ from "jquery";
 
 import Bit from "opensourced-bithub/models/bit";
 
-
+import template from "./index.stache";
+import "./style.less";
 
 
 
@@ -21,7 +22,6 @@ var RealBit = Bit.extend({
 }, {});
 
 
-var template = can.stache('<bh-bits-carousel bit-tag="bh-bit-carousel" bit-model="{bitModel}"></bh-bits-carousel>');
 
 var State = can.Map.extend({
 	isAdmin(){

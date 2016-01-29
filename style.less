@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic');
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#app {
+    bh-bits-carousel {
+        max-width: 1460px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 40px;
+        color: #231f20;
+        font-weight: 700;
+        text-align: center;
+        line-height: 44px;
+        padding: 30px 0;
+        span, .fa {
+            color: #625979;
+        }
+    }
+    .wrap {
+        position: relative;
+        bh-bits-carousel {
+            position: relative;
+            .outer-carousel-wrap {
+                margin: 0 80px;
+            }
+            bh-bit-carousel .bit-wrap {
+                background-color: white;
+            }
+            
+        }
+        .carousel-next, .carousel-prev {
+            background-color: #231f20;
+            width: 50px;
+            height: 50px;
+            margin-top: -25px;
+        }
+        .carousel-next {
+            background: none;
+            background-image: url(./images/arrow-right.svg);
+            background-size: 50px;
+        }
+        .carousel-prev {
+            background: none;
+            background-image: url(./images/arrow-left.svg);
+            background-size: 50px;
+        }
+        .purple-area {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: #625979;
+        }
+    }
+    .powered-by {
+        background: #625979;
+        padding: 20px 0;
+        text-align: center;
+        color: #b5b2c0;
+        font-size: 20px;
+        a {
+            color: white;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

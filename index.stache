@@ -1,0 +1,15 @@
+<div class="title">
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-rss"></i>
+  <br/>
+  Join the <span>#TayloredWines</span> conversation!
+</div>
+<div class="wrap">
+  <div class="purple-area"></div>
+  <bh-bits-carousel bit-tag="bh-bit-carousel" bit-model="{bitModel}" card-width="300" min-card-width="300"></bh-bits-carousel>
+</div>
+<div class="powered-by">
+  Social Hub powered by <a href="http://bithub.com" target="_blank">Bit<b>Hub</b></a>
+</div>

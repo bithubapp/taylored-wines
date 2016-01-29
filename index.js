@@ -27,9 +27,7 @@ var State = can.Map.extend({
 	isAdmin(){
 		return false;
 	},
-	assetRoot: (System.env.indexOf("production") >= 0 ? 
-		"/dist/node_modules/opensourced-bithub/" :
-		"./node_modules/opensourced-bithub/"),
+	assetRoot: steal.joinURIs(System.baseURL, "./node_modules/opensourced-bithub/" ),
 	hubId: 1
 });
 

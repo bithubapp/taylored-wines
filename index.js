@@ -16,7 +16,7 @@ import "./style.less";
 var RealBit = Bit.extend({
 	findAll: function(params){
 		return $.ajax({
-			url: 'http://bithub.com/api/v3/embeds/1/entities?view=public&tenant_name=radioactive_fern_9050&image_only=true&' + $.param(params)
+			url: 'http://bithub.com/api/v4/embeds/1/entities?view=public&tenant_name=blessed_beach_7760&image_only=true&' + $.param(params)
 		});
 	},
 }, {});

@@ -1,8 +1,8 @@
 <div class="title">
-  <a href="www.google.com" class="fa fa-twitter"></a>
-  <i class="fa fa-facebook"></i>
-  <i class="fa fa-instagram"></i>
-  <i class="fa fa-rss"></i>
+  <a href="https://twitter.com/tayloredwines" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://twitter.com/tayloredwines" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/tayloredwines" target="_blank" class="fa fa-instagram"></a>
+  <a href="https://twitter.com/tayloredwines" target="_blank" class="fa fa-rss"></a>
   <br/>
   Join the <span>#TayloredWines</span> conversation!
 </div>

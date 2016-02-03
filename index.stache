@@ -1,5 +1,5 @@
 <div class="title">
-  <i class="fa fa-twitter"></i>
+  <a href="www.google.com" class="fa fa-twitter"></a>
   <i class="fa fa-facebook"></i>
   <i class="fa fa-instagram"></i>
   <i class="fa fa-rss"></i>

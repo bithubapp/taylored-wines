@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/bithubapp/taylored-wines#readme",
   "dependencies": {
-    "can": "2.3.9",
+    "can": "2.3.15",
     "jquery": "2.1.4",
     "opensourced-bithub": "git+https://github.com/bitovi/bithub-embed.git#stealable",
-    "steal": "^0.14.0-pre.5"
+    "steal": "^0.14.0-pre.8"
   },
   "devDependencies": {
-    "steal-tools": "^0.14.0-pre.2"
+    "steal-tools": "^0.14.0-pre.3"
   },
   "system": {
     "npmAlgorithm": "flat",

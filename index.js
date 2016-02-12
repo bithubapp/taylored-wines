@@ -5,13 +5,10 @@ import "opensourced-bithub/style/embed.less!";
 import $ from "jquery";
 
 import Bit from "opensourced-bithub/models/bit";
+import ResizeSensor from "./resize-sensor";
 
 import template from "./index.stache";
 import "./style.less";
-
-
-
-//var bitData = new Bit.List(fixtures.data.slice(0, 10));
 
 var RealBit = Bit.extend({
 	findAll: function(params){
@@ -21,14 +18,16 @@ var RealBit = Bit.extend({
 	},
 }, {});
 
-
-
 var State = can.Map.extend({
 	isAdmin(){
 		return false;
 	},
 	assetRoot: steal.joinURIs(System.baseURL, "./node_modules/opensourced-bithub/" ),
 	hubId: 1
+});
+
+var sensor = new ResizeSensor(window.document, function() {
+	console.log(arguments);
 });
 
 $('body').on('cardExpanded', function(ev, height){

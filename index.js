@@ -26,16 +26,10 @@ var State = can.Map.extend({
 	hubId: 1
 });
 
-var sensor = new ResizeSensor(window.document, function() {
-	console.log(arguments);
+var sensor = new ResizeSensor(document.body, function() {
+	parent.postMessage('contentExpanded:' + $(document.body).outerHeight(), '*');
 });
 
-$('body').on('cardExpanded', function(ev, height){
-	var parent = window.parent;
-	if(parent){
-		parent.postMessage('cardExpanded:' + height, '*');
-	}
-});
 
 $('#app').html(template({
 	bitModel: RealBit,

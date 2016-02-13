@@ -7,7 +7,7 @@ wrapper.style.marginLeft = 'auto';
 wrapper.style.marginRight = 'auto';
 
 var iframe = document.createElement('iframe');
-iframe.id = 'bithub-embed'
+iframe.id = 'bithub-embed';
 iframe.style.height = '658px';
 iframe.style.width = '1px';
 iframe.style.minWidth = '100%';
@@ -29,8 +29,8 @@ window.addEventListener('message', function(ev){
 	if(msg){
 		var arr = msg.split(':');
 		var size = parseInt(arr[1], 10);
-		if(arr[0] === 'cardExpanded') {
-			iframe.style.height = size + 235 + 'px';
+		if(arr[0] === 'contentExpanded') {
+			iframe.style.height = size + 'px';
 		}
 	}
 }, false);

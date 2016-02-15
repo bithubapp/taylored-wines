@@ -8,7 +8,7 @@
 
 1. Link embed.js into splash page HTML.
 ```html
-<script type='https://bithubapp.github.io/taylored-wines/embed.js'></script>
+<script src='https://bithubapp.github.io/taylored-wines/embed.js'></script>
 ```
 
 2. Position div element with id 'taylored-wines-be-social' into splash page where you'd like the hub to appear.

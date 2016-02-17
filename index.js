@@ -13,7 +13,7 @@ import "./style.less";
 var RealBit = Bit.extend({
 	findAll: function(params){
 		return $.ajax({
-			url: 'http://bithub.com/api/v4/embeds/1/entities?view=public&tenant_name=blessed_beach_7760&image_only=true&' + $.param(params)
+			url: 'https://bithub.com/api/v4/embeds/1/entities?view=public&tenant_name=blessed_beach_7760&image_only=true&' + $.param(params)
 		});
 	},
 }, {});
